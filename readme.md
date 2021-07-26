@@ -17,3 +17,5 @@ Backend:
 - Express
 - MongoDB
 - Mongoose
+
+Ссылка на сайт: http://appetitka.herokuapp.com/
