@@ -26,6 +26,7 @@ export default function ApplicationProfile({ el }) {
               // [{text: 'продавец:', style: 'header'} , 'Аппетикино', 'тел: +78985232616'],
               [{text:'покупатель:', style: 'header'}, el.buyer.title, `ИНН:${el.buyer.itn}`,],
               ['номер заявки:', el.regnumber, '',],
+              ['дата заявки:', el.date, '',],
               [' ', ' ', ' '],
               ['Товар:', 'количество (шт)', 'цена (руб)'],
               ...el.goods.map((good) => {
